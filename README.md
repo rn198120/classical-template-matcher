@@ -72,6 +72,8 @@ Tested the detector under controlled distortions to map out NCC's strengths and 
 These limitations point naturally toward scale-invariant feature methods (SIFT, SURF) and learned methods (CNNs).
 
 ## Project Structure
+
+```
 template-matching-project/
 ├── 01_load_image.ipynb         # Exploration notebook with all experiments
 ├── template_matcher.py         # Reusable detector module
@@ -79,6 +81,7 @@ template-matching-project/
 ├── templates/
 │   └── index.html              # Drag-and-drop frontend
 └── main.png                    # Test image
+```
 ## How to run
 
 ### Prerequisites
